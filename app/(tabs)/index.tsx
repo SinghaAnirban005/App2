@@ -1,6 +1,6 @@
 import { View, Text, StyleSheet } from 'react-native';
 
-const app2 = () => {
+const App2 = () => {
   return (
     <View style={styles.container}>
       <Text style={styles.text}>Hello from App 2 !</Text>
@@ -17,7 +17,7 @@ const styles = StyleSheet.create({
     backgroundColor: 'red',
     borderRadius: 8,
     alignItems: 'center',
-    marginTop: 60,
+    marginTop: 30,
   },
   text: {
     fontSize: 18,
@@ -25,4 +25,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default app2;
+export default App2;
